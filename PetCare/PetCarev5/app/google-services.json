@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "649832453647",
+    "firebase_url": "https://test4tcp-default-rtdb.firebaseio.com",
+    "project_id": "test4tcp",
+    "storage_bucket": "test4tcp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649832453647:android:a7f704c7e5c717f00c357a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication4fb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xQsGkHBuzzyzRKN67fCqWPi2OOvqysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649832453647:android:d088712c171a81380c357a",
+        "android_client_info": {
+          "package_name": "com.example.petcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xQsGkHBuzzyzRKN67fCqWPi2OOvqysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649832453647:android:36133c921257e1630c357a",
+        "android_client_info": {
+          "package_name": "com.example.test4tcp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_xQsGkHBuzzyzRKN67fCqWPi2OOvqysI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

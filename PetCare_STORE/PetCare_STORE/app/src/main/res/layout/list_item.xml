@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/storeNameTextView"
+        android:layout_width="419dp"
+        android:layout_height="48dp"
+        android:background="#E09BEC"
+        android:fontFamily="sans-serif-black"
+        android:text="Store Name: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="411dp"
+        android:layout_height="44dp"
+        android:background="#E0D6F1"
+        android:fontFamily="monospace"
+        android:text="Address: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storeNameTextView" />
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="416dp"
+        android:layout_height="42dp"
+        android:background="#E0D6F1"
+        android:fontFamily="monospace"
+        android:text="Product Name: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAd" />
+
+    <TextView
+        android:id="@+id/productDetailTextView"
+        android:layout_width="416dp"
+        android:layout_height="49dp"
+        android:background="#E0D6F1"
+        android:backgroundTint="#E0D6F1"
+        android:fontFamily="monospace"
+        android:text="Product Detail: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productNameTextView" />
+
+    <ImageView
+        android:id="@+id/imageViewAd"
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressTextView" />
+
+    <ImageView
+        android:id="@+id/imageViewPromo"
+        android:layout_width="410dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productDetailTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
